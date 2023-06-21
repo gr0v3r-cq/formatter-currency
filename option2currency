@@ -1,0 +1,13 @@
+esto importando la libreria, por que sin el formato hace que el descuento saque otro monto
+#############################################
+from decimal import Decimal
+
+precio_1 = Decimal('0.1')
+precio_2 = Decimal('0.1')
+precio_3 = Decimal('0.1')
+
+total_compra = ( precio_1 + precio_2 + precio_3 )
+
+total_pago = total_compra - ( Decimal('0.3'))
+
+print(f"debe pagar {total_pago}")
