@@ -11,5 +11,6 @@ const amount = 1000;
 const formattedAmount = formatter.format(amount);
 console.log(formattedAmount);
 
+
 formatter.format(12)
 '$12.00'
