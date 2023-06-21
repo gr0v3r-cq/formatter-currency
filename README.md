@@ -8,7 +8,9 @@ const formatter = new Intl.NumberFormat('es-MX', {style:"currency", currency:"MX
 const formatter = new Intl.NumberFormat('es-BO', {style: "currency", currency: "BOB"});
 
 const amount = 1000;
+
 const formattedAmount = formatter.format(amount);
+
 console.log(formattedAmount);
 
 
